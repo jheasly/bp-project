@@ -40,4 +40,4 @@ class PlayerTeamStint(models.Model):
     b_bb = models.PositiveIntegerField()
 
     def __str__(self):
-        return "{self.player} - {self.team}"
+        return f"{self.player} - {self.team}"
