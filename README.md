@@ -15,6 +15,6 @@ Some players will have multiple stints in a single year, as if they've been trad
 
 If you feel doing so suits your demo, feel free to change or extend the models. 
 
-(The mdoels and generated data are purposefully contrived, don't get too hung up on that.)
+(The models and generated data are purposefully contrived, don't get too hung up on that.)
 
 Enjoy!
