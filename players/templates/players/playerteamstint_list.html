@@ -5,8 +5,17 @@
         Date joined: {{ object.date_joined }} 
     </p>
     <ul>
-        <li>{{ object.b_1b }}</li>
-        <li>{{ object.b_2b }}</li>
+        <li>Singles: {{ object.b_1b }}</li>
+        <li>Doubles: {{ object.b_2b }}</li>
+        <li>Triples: {{ object.b_3b }}</li>
+        <li>At bats: {{ object.b_ab }}</li>
+        <li>Bases on balls: {{ object.b_bb }}</li>
+        <li>Hits: {{ object.b_hits }}</li>
+        <li>Home runs: {{ object.b_hr }}</li>
+        <li>Plate appearances: {{ object.b_pa }}</li>
+        <li>RBIs: {{ object.b_rbi }}</li>
+        <li>Runs: {{ object.b_runs }}</li>
+        <li>Stolen bases: {{ object.b_sb }}</li>
     </ul>
     
 {% endfor %}
