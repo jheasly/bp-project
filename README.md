@@ -9,6 +9,8 @@ Hello! This is the project skeleton to use for your take-home project.
 
 ## Populate sample data, run app
 
+Unzip the emailed `bp-project-master.zip` file. (If you attempt to download and run the GitHub `.zip` file it will fail as you will be missing `secret_key.txt` and `playerstats/local_settings.py` files.)
+
 After setting up your environment and installing required packages, run migrations. Then, create sample data to develop against using this command:
 
 ```shell script
