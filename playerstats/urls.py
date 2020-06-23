@@ -16,6 +16,16 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
+from players import views
+
 urlpatterns = [
+    path(
+        '',
+        views.StatsSeasonsTeamsListView.as_view(),
+        name='meeting-list',
+    )
+]
+
+urlpatterns += [
     path('admin/', admin.site.urls),
 ]
