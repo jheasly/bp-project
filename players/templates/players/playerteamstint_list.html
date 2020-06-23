@@ -1,0 +1,12 @@
+<h1>{{ season }}</h1>
+{% for object in object_list %}
+    <p>
+        <strong>{{ object }}</strong><br>
+        Date joined: {{ object.date_joined }} 
+    </p>
+    <ul>
+        <li>{{ object.b_1b }}</li>
+        <li>{{ object.b_2b }}</li>
+    </ul>
+    
+{% endfor %}
