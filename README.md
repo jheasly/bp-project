@@ -2,6 +2,11 @@
 
 Hello! This is the project skeleton to use for your take-home project.
 
+## Schema
+
+![bp](https://user-images.githubusercontent.com/96007/85434011-39c27f80-b53a-11ea-9e02-2ce84c2cb0b2.png)
+
+
 ## Populating sample data
 
 After setting up your environment, run migrations. Then, create sample data to develop against using this command:
