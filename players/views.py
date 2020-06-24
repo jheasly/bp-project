@@ -2,6 +2,8 @@ from django.views.generic import ListView
 
 from .models import PlayerTeamStint
 
+#TODO: Handle multiple years
+
 # Create your views here.
 class StatsSeasonsTeamsListView(ListView):
     def get_queryset(self):
